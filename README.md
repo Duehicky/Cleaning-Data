@@ -2,21 +2,22 @@ Getting-and-Cleaning-Data README
 ====================================
 Assignment submission includes:
 
-README.md
+README.md - explains how run_analysis.R works and basic overview of the data
 
-CodeBook.md
+CodeBook.md - proivdes details about the data set
 
-run_analysis.R
+run_analysis.R - code to run
 
-tidyData.txt
+tidyData.txt - original tidy data set with only mean and standard deviation columns (parts 1-4 of the assignment)
 
-meanTidyData.txt 
+meanTidyData.txt - required data (part 5 of the assignment)
 
-Data from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip  has been download and saved in a folder called TrainData.
+Data from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip  has been download and saved in a folder called UCI HAR dataset.
 
 UCI HAR dataset contains two folders called test with test data and a second with training data called train. The main folder also includes text files features.txt and activity.txt
 
 R script called run_analysis.R that does the following:
+
 1. Set up a list of directories
 2. Change working directory to train folder
 3. All train data is read into using the read.table command
