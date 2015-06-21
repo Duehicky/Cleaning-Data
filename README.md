@@ -14,7 +14,7 @@ meanTidyData.txt - required data (part 5 of the assignment)
 
 Data from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip  has been download and saved in a folder called UCI HAR dataset.
 
-UCI HAR dataset contains two folders called test with test data and a second with training data called train. The main folder also includes text files features.txt and activity.txt
+UCI HAR dataset contains two folders one called test with test data and a second with training data called train. The main UCI HAR dataset folder also includes text files features.txt and activity.txt
 
 R script called run_analysis.R that does the following:
 
